@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+body{
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+.title_box{
+    background-color: skyblue;
+    color: white;
+    text-align: center;
+    margin-bottom: 12px;
+    justify-content:center;
+}
+.title{
+    padding: 12px 0 12px 0;
+}
+#my_image{
+    width: 30%;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.8;
+}
+.info li>a{
+    font-style: italic;
+    color: black;
+}
+.info li>a:hover{
+    color: pink;
+}
